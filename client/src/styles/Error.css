@@ -1,0 +1,45 @@
+.error-heading {
+  text-align: center;
+  font-size: 5rem;
+  margin-top: 3rem;
+  color: #000000;
+  font-family: serif;
+  margin-bottom: 0;
+}
+
+.error-text {
+  text-align: center;
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
+  color: #000000;
+}
+
+.temple {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15rem;
+  margin-top: 3rem;
+}
+
+.home-button {
+  color: #000000;
+  text-decoration: underline;
+  margin-top: 2rem;
+  font-size: 1.25rem;
+  display: block;
+  text-align: center;
+}
+
+.home-button:hover {
+  color: #000000;
+}
+
+@media (max-width: 768px) {
+  .error-heading {
+    font-size: 3.75rem;
+  }
+  .error-text {
+    font-size: 1.1rem;
+  }
+}

@@ -1,0 +1,69 @@
+.Locations-box {
+  text-align: center;
+  margin-top: 2.25rem;
+  margin-bottom: 1rem;
+}
+
+.location-nepal {
+  width: 12rem;
+  vertical-align: middle;
+}
+
+.location-india {
+  width: 20rem;
+  vertical-align: middle;
+  margin-left: 4.5rem;
+  margin-right: 5.2rem;
+}
+
+.location-srilanka {
+  width: 5rem;
+  vertical-align: middle;
+}
+
+@media (max-width: 992px) {
+  .location-nepal {
+    width: 10rem;
+    vertical-align: middle;
+  }
+
+  .location-india {
+    width: 15rem;
+    vertical-align: middle;
+    margin-left: 2.8rem;
+    margin-right: 3rem;
+  }
+
+  .location-srilanka {
+    width: 4rem;
+    vertical-align: middle;
+  }
+}
+
+@media (max-width: 768px) {
+  .Locations-box {
+    display: block;
+    margin-left: 2.75rem;
+    margin-top: 4.5rem;
+  }
+
+  .location-nepal {
+    width: 6rem;
+    vertical-align: top;
+    transform: rotate(5deg);
+  }
+
+  .location-india {
+    width: 17rem;
+    vertical-align: middle;
+    margin-left: -14.5rem;
+    margin-right: -8rem;
+    margin-bottom: 2.5rem;
+    margin-top: -1rem;
+  }
+
+  .location-srilanka {
+    width: 2.5rem;
+    vertical-align: bottom;
+  }
+}

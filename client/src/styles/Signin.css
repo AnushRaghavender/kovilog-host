@@ -1,0 +1,38 @@
+.signin-form {
+  float: right;
+  margin-right: 10rem;
+  margin-top: 4.5rem;
+}
+
+.signin-heading {
+  font-size: 1.85rem;
+  margin-bottom: 1.25rem;
+  text-align: center;
+  font-family: serif;
+  color: #000000;
+}
+
+.signin-form-group {
+  margin-bottom: 0.65rem;
+}
+
+@media (max-width: 1152px) {
+  .signin-form {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .signin-form {
+    margin-top: -2rem;
+    padding-bottom: 1rem;
+  }
+  .signin-heading {
+    font-size: 1.55rem;
+  }
+}

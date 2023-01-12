@@ -1,0 +1,236 @@
+.body-container {
+  background-image: linear-gradient(to right, #D61A81, #D31B5D, #D01B3C);
+  width: 100%;
+  min-height: 360px;
+}
+
+.harihara {
+  width: 17rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  margin-left: 15rem;
+}
+
+.welcome-box {
+  float: right;
+  margin-right: 8.5rem;
+  text-align: center;
+  margin-top: 6.7rem;
+}
+
+.welcome-heading {
+  color: #000000;
+  padding-bottom: 0.5rem;
+  font-family: serif;
+  font-size: 1.85rem;
+}
+
+.Kovilog {
+  color: black;
+  font-size: 1.7rem;
+}
+
+.welcome-text {
+  color: #000000;
+  padding-bottom: 1.25rem;
+  font-family: Montserrat, sans-serif;
+}
+
+.signin-button {
+  margin-right: 1rem;
+  background: transparent;
+  color: #000000;
+  border: 1.75px;
+  border-color: #000000;
+  border-style: solid;
+  outline: none;
+  border-radius: 25px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.signin-button:hover {
+  cursor: pointer;
+  background: #000000;
+  border: 1.75px;
+  border-style: solid;
+  border-color: #000000;
+  color: #FFFFFF;
+  outline: none;
+}
+
+.signin-button:focus {
+  outline: none;
+}
+
+.signup-button {
+  background: #000000;
+  color: #FFFFFF;
+  border: 1.75px;
+  border-color: #000000;
+  border-style: solid;
+  outline: none;
+  border-radius: 25px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.signup-button:hover {
+  cursor: pointer;
+  background: transparent;
+  border: 1.75px;
+  border-style: solid;
+  border-color: #000000;
+  color: #000000;
+  outline: none;
+}
+
+.signup-button:focus {
+  outline: none;
+}
+
+.Footer1 {
+  text-align: center;
+  background: #000000;
+  color: #FFFFFF;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+@media (min-width: 1281px) {
+  .body-container {
+    min-height: 512px;
+  }
+}
+
+@media (max-width: 1152px) {
+  .harihara {
+    width: 11.5rem;
+    padding-top: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3rem;
+  }
+  .welcome-box {
+    float: none;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding-bottom: 3rem;
+  }
+  .welcome-heading {
+    padding-bottom: 0.4rem;
+  }
+  .welcome-text {
+    padding-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .harihara {
+    width: 11.5rem;
+    padding-top: 1.25rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0.75rem;
+  }
+  .welcome-box {
+    float: none;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding-bottom: 2rem;
+  }
+  .welcome-heading {
+    padding-bottom: 0rem;
+    font-size: 1.85rem;
+  }
+  .welcome-text {
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 0.85rem;
+  }
+  .signin-button {
+    margin-right: 0.75rem;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+    font-size: 0.95rem;
+  }
+  .signup-button {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+    font-size: 0.95rem;
+  }
+  .body-container {
+    min-height: 620px;
+  }
+}
+
+@media (max-width: 767px) {
+  .body-container {
+    min-height: 625px;
+  }
+  .Kovilog {
+    font-size: 1.5rem
+  }
+  .harihara {
+    width: 10rem;
+    padding-top: 2.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2.25rem;
+  }
+  .welcome-box {
+    float: none;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding-bottom: 4.5rem;
+  }
+  .welcome-heading {
+    padding-bottom: 0.10rem;
+    font-size: 1.5rem;
+  }
+  .welcome-text {
+    padding-bottom: 0.85rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 0.85rem;
+  }
+  .tagline-break {
+    display: none;
+  }
+  .signin-button {
+    margin-right: 0.75rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 0.85rem;
+  }
+  .signup-button {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 0.85rem;
+  }
+}

@@ -1,0 +1,232 @@
+:root {
+  text-underline-position: under;
+}
+
+.Temples1 {
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+  background-image: linear-gradient(to right, #D61A81, #D31B5D, #D01B3C);
+  width: 100%;
+  min-height: 360px;
+  text-align: center;
+}
+
+.Temples-heading {
+  text-decoration: underline;
+  text-align: center;
+  margin-top: -1rem;
+  margin-bottom: 2.5rem;
+}
+
+.Searchbar {
+  display: block;
+  margin-bottom: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+  background: transparent;
+  border-color: black;
+  width: 25rem;
+  height: 2rem;
+  border-radius: 20px;
+  text-indent: 10px;
+}
+
+.load-more-button {
+  background: transparent;
+  color: black;
+  border: 1.75px;
+  border-color: #000000;
+  border-style: solid;
+  outline: none;
+  border-radius: 25px;
+  padding-top: 0.8rem;
+  padding-bottom: 0.7rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+
+.load-more-button:hover {
+  cursor: pointer;
+  background: #000000;
+  border: 1.75px;
+  border-style: solid;
+  border-color: #000000;
+  color: #FFFFFF;
+  outline: none;
+}
+
+.load-more-button:focus {
+  outline: none;
+}
+
+.Temple-card1 {
+  text-align: center;
+  margin-left: 1.75rem;
+  margin-right: 1.75rem;
+  width: 15rem;
+  display: inline-grid;
+  vertical-align: top;
+  margin-bottom: 3rem;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: black;
+  border-radius: 17px;
+}
+
+.temple-image1 {
+  width: 15rem;
+  text-align: center;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-style: solid;
+  border-top-width: 0rem;
+  border-bottom-width: 0.1rem;
+  border-left-width: 0rem;
+  border-right-width: 0rem;
+  border-color: black;
+}
+
+.temple-name1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-family: Montserrat, sans-serif;
+  font-size: 0.85rem;
+  color: white;
+  margin-top: 0;
+  border-style: solid;
+  border-top-width: 0.1rem;
+  border-bottom-width: 0.1rem;
+  border-left-width: 0rem;
+  border-right-width: 0rem;
+  border-color: black;
+  padding: 0.5rem;
+}
+
+.temple-bucket-visited {
+  font-size: 1.15rem;
+  color: black;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.bkt {
+  width: 1.1rem;
+}
+
+.vst {
+  width: 1.05rem;
+}
+
+.cmt {
+  width: 1.1rem;
+}
+
+.add-bkt-button {
+  background: transparent;
+  color: #000000;
+  border: 1.75px;
+  border-color: #000000;
+  border-style: solid;
+  outline: none;
+  border-radius: 25px;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  text-align: center;
+  width: 10.5rem;
+  margin-bottom: 0.5rem;
+  vertical-align: middle;
+}
+
+.add-bkt-button:hover {
+  cursor: pointer;
+  border: 1.75px;
+  border-style: solid;
+  border-color: #000000;
+  outline: none;
+}
+
+.add-bkt-button:focus {
+  outline: none;
+}
+
+.add-vst-button {
+  background: transparent;
+  color: #000000;
+  border: 1.75px;
+  border-color: #000000;
+  border-style: solid;
+  outline: none;
+  border-radius: 25px;
+  padding-top: 0.65rem;
+  padding-bottom: 0.65rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  text-align: center;
+  width: 10.5rem;
+  vertical-align: middle;
+}
+
+.add-vst-button:hover {
+  cursor: pointer;
+  border: 1.75px;
+  border-style: solid;
+  border-color: #000000;
+  outline: none;
+}
+
+.add-vst-button:focus {
+  outline: none;
+}
+
+.social-buttons {
+  margin-top: 0.35rem;
+  margin-bottom: 1.3rem;
+}
+
+@media (max-width: 992px) {
+  .Temple-card1 {
+    margin-bottom: 2.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Temples-heading{
+    margin-top: -0.25rem;
+  }
+  .Searchbar {
+    width: 20rem;
+    height: 1.75rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .Temples-heading{
+    margin-top: -0.5rem;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+  }
+  .Searchbar {
+    width: 15rem;
+    height: 1.75rem;
+  }
+  .Temples1 {
+    min-height: 417px;
+  }
+  .load-more-button {
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    font-size: 0.85rem;
+  }
+}

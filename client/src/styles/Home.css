@@ -1,0 +1,47 @@
+.Temples {
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+  background-image: linear-gradient(to right, #D61A81, #D31B5D, #D01B3C);
+  width: 100%;
+  min-height: 360px;
+  text-align: center;
+}
+
+.Temple-card {
+  text-align: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  width: 15rem;
+  display: inline-grid;
+  vertical-align: top;
+  margin-bottom: 3rem;
+}
+
+.temple-name {
+  text-align: center;
+  margin-bottom: 0.7rem;
+  font-family: Montserrat, sans-serif;
+  font-size: 0.85rem;
+  color: white;
+}
+
+.temple-image {
+  width: 15rem;
+  text-align: center;
+  border-radius: 15px;
+}
+
+@media (max-width: 992px) {
+  .Temples {
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    min-height: 432px;
+  }
+  .Temple-card {
+    margin-bottom: 2.25rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

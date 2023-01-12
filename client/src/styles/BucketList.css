@@ -1,0 +1,75 @@
+.bucketlist-body-container {
+  background-image: linear-gradient(to right, #D61A81, #D31B5D, #D01B3C);
+  width: 100%;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+  min-height: 360px;
+  text-align: center;
+}
+
+.bucket-list-heading {
+  text-align: center;
+  margin-top: -0.5rem;
+  padding-bottom: 1rem;
+}
+
+.add-button, .remove-button {
+  background: transparent;
+  color: #000000;
+  border: 1.75px;
+  border-color: #000000;
+  border-style: solid;
+  outline: none;
+  border-radius: 25px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 1rem;
+  text-align: center;
+  width: 8rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5rem;
+}
+
+.remove-button:hover {
+  cursor: pointer;
+  outline: none;
+}
+
+.remove-button:focus {
+  outline: none;
+}
+
+@media (min-width: 1281px) {
+  .bucketlist-body-container {
+    min-height: 400px;
+  }
+}
+
+@media (max-width: 992px) {
+  .bucket-list-heading {
+    font-size: 1.85rem;
+    margin-top: 0rem;
+    padding-bottom: 0.85rem;
+  }
+  .remove-button {
+    margin-top: 1rem;
+  }
+  .bucketlist-body-container {
+    min-height: 810px;
+  }
+}
+
+@media (max-width: 767px) {
+  .bucketlist-body-container {
+    min-height: 625px;
+  }
+  .bucket-list-heading {
+    font-size: 1.65rem;
+    margin-top: 0rem;
+    padding-bottom: 0.65rem;
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://user69:user101@cluster0.bsmjh.gcp.mongodb.net/KovilogDB?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken"
+}

@@ -1,0 +1,60 @@
+.Navbar {
+  background-image: linear-gradient(to right, #D61A81, #D31B5D, #D01B3C);
+  height: 3.5rem;
+}
+
+.Filter-Navbar {
+  display: inline;
+  float: left;
+  margin-left: 2rem;
+  margin-top: 1.25rem;
+}
+
+.Deity, .Location{
+  width: 1.85rem;
+  margin-right: 1.65rem;
+}
+
+.Location {
+  margin-right: 0rem;
+}
+
+.User-Navbar {
+  display: inline;
+  float: right;
+  margin-right: 2rem;
+  margin-top: 1.25rem;
+}
+
+.Flag, .User, .Bucket, .add-Temple {
+  width: 1.85rem;
+  margin-left: 1.75rem;
+}
+
+.Flag {
+  margin-left: 0;
+}
+
+@media (max-width: 768px) {
+  .Navbar {
+    height: 2.8rem;
+  }
+
+  .Filter-Navbar {
+    margin-left: 1rem;
+  }
+
+  .Search, .Deity, .Location{
+    width: 1.4rem;
+    margin-right: 1.1rem;
+  }
+
+  .User-Navbar {
+    margin-right: 1rem;
+  }
+
+  .Flag, .User, .Bucket, .add-Temple {
+    width: 1.4rem;
+    margin-left: 1.1rem;
+  }
+}

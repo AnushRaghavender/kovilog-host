@@ -1,0 +1,32 @@
+html {
+  min-height: 100%
+}
+
+.Footer {
+  text-align: center;
+  background: #000000;
+  color: #FFFFFF;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+.Copyright {
+  font-family: 'Sofia', cursive;
+  font-size: 0.85rem;
+}
+
+.Anush-Raghavender {
+  color: #ffbf00;
+  text-decoration: none;
+}
+
+.Anush-Raghavender:hover {
+  color: #ffbf00;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .Copyright {
+    font-size: 0.6rem;
+  }
+}

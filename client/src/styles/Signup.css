@@ -1,0 +1,165 @@
+.signup-form {
+  float: right;
+  margin-right: 10.25rem;
+  margin-top: -0.25rem;
+}
+
+.signup-heading {
+  font-size: 1.85rem;
+  text-align: center;
+  font-family: serif;
+  color: #000000;
+  margin-bottom: 1.25rem;
+}
+
+.signup-form-group {
+  margin-bottom: 0.7rem;
+  padding-top: 0;
+}
+
+.input-fields, .select-fields {
+  background-color: transparent;
+  border-style: solid;
+  border-color: #000000;
+  color: #000000;
+  border-radius: 0.5rem;
+  border-width: 0.15rem;
+  text-indent: 5px;
+}
+
+.select-fields {
+  height: 1.9rem;
+  width: 22rem;
+}
+
+.input-fields {
+  height: 1.55rem;
+  width: 21.35rem;
+}
+
+::placeholder {
+  color: #000000;
+}
+
+.input-fields:focus, .select-fields:focus {
+  outline: none;
+}
+
+.select-fields:hover {
+  cursor: pointer;
+}
+
+.Exisiting-account-box{
+  text-align: center;
+  margin-top: 1rem;
+  color: #000000;
+}
+
+.Exisiting-account {
+  margin-bottom: 0.5rem;
+}
+
+.sign-up-button {
+  background: transparent;
+  color: #000000;
+  border: 1.75px;
+  border-color: #000000;
+  border-style: solid;
+  outline: none;
+  border-radius: 25px;
+  padding-top: 0.45rem;
+  padding-bottom: 0.45rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-size: 1rem;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.25rem;
+}
+
+.sign-up-button:hover {
+  cursor: pointer;
+  background: #000000;
+  border: 1.75px;
+  border-style: solid;
+  border-color: #000000;
+  color: #FFFFFF;
+  outline: none;
+}
+
+.sign-up-button:focus {
+  outline: none;
+}
+
+.Exisiting-account {
+  font-size: 0.85rem;
+  font-family: Montserrat, sans-serif;
+  padding-top: 0.5rem;
+}
+
+.signin-btn {
+  background: transparent;
+  color: #000000;
+  border: 1.75px;
+  border-color: #000000;
+  border-style: solid;
+  outline: none;
+  border-radius: 25px;
+  padding-top: 0.30rem;
+  padding-bottom: 0.30rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.signin-btn:hover {
+  cursor: pointer;
+  background: #000000;
+  border: 1.75px;
+  border-style: solid;
+  border-color: #000000;
+  color: #FFFFFF;
+  outline: none;
+}
+
+.signin-btn:focus {
+  outline: none;
+}
+
+@media (max-width: 1152px) {
+  .signup-form {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0rem;
+    text-align: center;
+  }
+  .Exisiting-account-box{
+    text-align: center;
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+    color: #000000;
+  }
+}
+
+@media (max-width: 768px) {
+  .signup-form {
+    margin-top: -2rem;
+  }
+  .signup-heading {
+    font-size: 1.55rem;
+  }
+  .select-fields {
+    height: 1.95rem;
+    width: 18.5rem;
+  }
+
+  .input-fields {
+    height: 1.55rem;
+    width: 18rem;
+  }
+}

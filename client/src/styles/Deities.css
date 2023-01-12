@@ -1,0 +1,47 @@
+.deities-container {
+  background-image: linear-gradient(to right, #D61A81, #D31B5D, #D01B3C);
+  width: 100%;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+  min-height: 360px;
+  text-align: center;
+}
+
+.Deities-box {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.shiva-deity {
+  width: 12rem;
+  margin-right: 4rem;
+}
+
+.vishnu-deity {
+  width: 10.9rem;
+}
+
+@media (max-width: 992px) {
+  .shiva-deity {
+    width: 10rem;
+    margin-right: 3rem;
+  }
+
+  .vishnu-deity {
+    width: 9.05rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .shiva-deity {
+    width: 9rem;
+    margin-right: 1rem;
+  }
+
+  .vishnu-deity {
+    width: 8.1rem;
+  }
+  .deities-container {
+    min-height: 550px;
+  }
+}
